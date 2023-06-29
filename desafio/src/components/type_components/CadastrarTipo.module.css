@@ -1,0 +1,119 @@
+.btnVoltar{
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color:cornflowerblue;
+  border: 2px solid cornflowerblue;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+.btnVoltar:hover {
+  background-color: darkblue;
+  border-color: darkblue;
+}
+
+/* Estilização do formulário */
+.formCad {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.lbl {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.formCad input[type="text"]{
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+.formCad select{
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.formCad input[type="number"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.formCad input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: gray;
+  color: #fff;
+  cursor: pointer;
+}
+
+.formCad input[type="submit"]:hover {
+  background-color: darkgray;
+}
+
+.btnVoltar {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ccc;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btnVoltar:hover {
+  background-color: #aaa;
+}
+
+.cadastrar{
+  padding: 8px 20px;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: gray;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+p.AlertSuccess{
+  background-color: #d1e7dd;
+  color: #0f5132;
+  margin: 20px 820px;
+  padding: 7px;
+  border-color: #0f5132;
+  border-radius: 10px;
+}
+
+p.AlertDanger{
+  background-color: #d1e7dd;
+  color: #510f0f;
+  margin: 20px 820px;
+  padding: 7px;
+  border-color: hsl(0, 69%, 19%);
+  border-radius: 10px;
+}

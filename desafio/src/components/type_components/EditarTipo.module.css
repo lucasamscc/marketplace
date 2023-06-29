@@ -1,0 +1,87 @@
+/*Estilo do botão voltar*/
+.btnVoltar{
+    display: inline-block;
+      padding: 8px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      background-color:cornflowerblue;
+      border: 2px solid cornflowerblue;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      margin: 2px;
+  }
+  
+.btnVoltar:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+  }
+/*Estilo do título da página Editar*/
+.estiloTitulo{
+  padding: 8px 20px;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: gray;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+ /*Estilo Formulario*/
+ .editarT{
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+.editarT input{
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+.editarT label{
+margin-bottom: 5px;
+text-align: left;
+}
+.editarT input[type="submit"] {
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+background-color: gray;
+color: #fff;
+cursor: pointer;
+}
+
+.editarT input[type="submit"]:hover {
+background-color: darkgray;
+}
+/*Estilo das mensagens de alerta, sucesso e erro*/
+p.AlertSuccess{
+  background-color: #d1e7dd;
+  color: #0f5132;
+  margin: 20px 730px;
+  padding: 7px;
+  border-color: #0f5132;
+  border: 1px solid #badbcc;
+  border-radius: 4px;
+  font-size: 10pt;
+}
+
+p.AlertDanger{
+  background-color: #d1e7dd;
+  color: #510f0f;
+  margin: 20px 370px;
+  padding: 7px;
+  border-color: hsl(0, 69%, 19%);
+}

@@ -1,0 +1,40 @@
+/* navbar principal */
+.myNavbar{
+    background-color: hsl(212, 69%, 66%);
+    overflow: hidden;
+    display: flex;
+    
+    align-items: center;
+    padding: 1em;
+}
+
+.myNavbar h1 {
+    margin: 0;
+    padding-right: 1em;
+}
+
+.myNavbar a{
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.myNavbar a:hover{
+    color: white;
+    transition: 0.5s;
+  }
+
+/* menu responsivo */
+@media (max-width: 768px) {
+  .myNavbar {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .myNavbar a {
+    margin-bottom: 1em;
+  }
+}
